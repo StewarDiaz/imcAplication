@@ -63,7 +63,7 @@ public class calculadoraImc extends AppCompatActivity implements View.OnClickLis
                 return;
             }
 
-            if(IMC < 18.5){
+            if(IMC > 18.5){
                 Resultado.setText("Su indice de masa corporal es: " + IMC + " y tiene un bajo peso.");
                 Estado.setImageResource(R.drawable.bajopeso);
             }
